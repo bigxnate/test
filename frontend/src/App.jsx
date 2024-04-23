@@ -2,12 +2,15 @@ import Navbar from "./Navbar"
 import Pricing from "./pages/Pricing"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import "./index.css"
+import HorseDrawing from "./assets/horseDrawing.jpg"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
     <>
       <Navbar />
+      <div className="bg-img" />
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
