@@ -3,8 +3,8 @@ import NoorFace from '../assets/NoorFace.png'
 
 const HomeDiv = styled.div`
     background-color: #333;
-    margin: 0 10vw;
-    height: 80vh;
+    margin: 0 auto;
+    height: 75vh;
     color: white;
     padding: 10px;
     display: flex;
@@ -16,13 +16,15 @@ export default function Home() {
     return (
         <HomeDiv>
             <h1>
-                My name is Noor and I love horses
+                My name is Noor and I love horse c0ck!
             </h1>
-            <div style={{
+            <img src={NoorFace} style={{
                 textAlign: 'center',
+                height: '14rem',
                 width: '10rem',
+                margin: '10px auto',
                 display: 'flex',
-                backgroundImage: 'url(../assets/NoorFace.png)'
+                borderRadius: '10px'
             }} />
         </HomeDiv>
     )
